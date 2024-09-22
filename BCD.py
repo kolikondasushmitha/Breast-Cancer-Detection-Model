@@ -45,7 +45,7 @@ plt.show()
 
 ### 4. Pair Plot for selected features
 # Scatter plot matrix for 'radius_mean', 'texture_mean', 'area_mean', 'smoothness_mean' with respect to diagnosis
-selected_features = ['radius_mean', 'texture_mean', 'area_mean', 'smoothness_mean', 'diagnosis']
+selected_features = ['radius_mean' , 'texture_mean', 'area_mean', 'smoothness_mean', 'diagnosis']
 sns.pairplot(data[selected_features], hue='diagnosis', palette='Set1')
 plt.show()
 
